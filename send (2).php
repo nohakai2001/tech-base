@@ -8,9 +8,9 @@ $pass=$_POST["pass"];
 date_default_timezone_set('Asia/Tokyo');
 $created_at = date("Y-m-d H:i:s");
 //DB接続情報を設定します。
-$dsn='mysql:dbname=tb240052db;host=localhost';
-$user = 'tb-240052';
-$password = 'mXBSmUwyz2';
+$dsn='mysql:dbname=**********;host=*******';
+$user = '******';
+$password = '*******';
 $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 //ここで「DB接続NG」だった場合、接続情報に誤りがあります。
 if ($pdo) {
