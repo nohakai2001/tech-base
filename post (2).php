@@ -2,9 +2,9 @@
 
 <?php
 //DB接続情報を設定します。
-$dsn='mysql:dbname=tb240052db;host=localhost';
-$user = 'tb-240052';
-$password = 'mXBSmUwyz2';
+$dsn='mysql:dbname=*******;host=******';
+$user = '****';
+$password = '******';
 $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
     $sql = "CREATE TABLE IF NOT EXISTS posts"
